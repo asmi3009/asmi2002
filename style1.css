@@ -1,0 +1,174 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the cover photo section */
+.cover-photo {
+    text-align: center;
+   
+   
+}
+
+.cover-photo img {
+    width: 1500px; /* Adjust the size of the profile photo as needed */
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling for the profile photo */
+.profile-photo {
+    text-align: center;
+    margin-top: -75px; /* Adjust this value to vertically center the profile photo */
+}
+
+.profile-photo img {
+    width: 250px; /* Adjust the size of the profile photo as needed */
+    height: 250px;
+    border-radius: 50%; /* Make the profile photo circular */
+    border: 5px double burlywood; /* Add a border around the profile photo */
+    margin: 0 auto;
+    
+}
+
+/* Additional styles for header, main content, and footer can be added here */
+nav {
+    
+    position: fixed;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #ff5733; /* Change the color on hover */
+}
+
+/* Additional styles for main content and footer can be added here */
+.logo {
+    font-size: 18px;
+   padding: 10px;
+   text-decoration: underline;
+    
+}
+.logo:hover {
+    color: #ff5733; /* Change the color on hover */
+}
+
+body {
+    background-image: url('imp2.jpg'); /* Replace 'background.jpg' with your image file path or URL */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+}
+/* Reset some default styles */
+
+/* Style for the pop-up overlay */
+
+/* Style for the close button */
+
+.about{
+    background-color:black;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    opacity: 0.6;
+    color: gold;
+}
+.name{
+    font-family: 'Times New Roman';
+    color:goldenrod;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+}
+/* Style for the container that centers the image */
+
+
+/* Basic styles for the slideshow container */
+.slideshow-container {
+    max-width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Style for the individual slides */
+.slide {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: none; /* Hide all slides by default */
+}
+
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 10px; /* Adjust this value to change the horizontal position */
+    transform: translateY(-50%);
+    z-index: 9999; /* Ensure icons are above other content */
+}
+
+.social-icons a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Adjust the color to match your design */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change the color on hover */
+}
+.fa-facebook{
+    background-color: blue;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-whatsapp{
+    background-color: green;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-phone-square{
+    background-color: bisque;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-instagram{
+    background-color: fuchsia;
+    padding: 3px 5px;
+    border-radius: 5px;}
+    .fa-linkedin{
+        background-color: blue;
+        padding: 3px 5px;
+        border-radius: 5px;}
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
